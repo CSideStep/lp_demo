@@ -13,6 +13,7 @@ function mouseReleased(){
 	if(mouseX < width && mouseX >= 0 && mouseY < height && mouseY >= 0){
 	points.push([mouseX, mouseY, [random(255), random(255), random(255)]]);
 	}
+	last_value =0;
 }
 
 function draw(){
