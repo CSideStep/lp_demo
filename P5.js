@@ -37,6 +37,7 @@ function draw(){
 		}
 	}
 	last_value = pValueSlider.value()
+	print(last_value)
 }
 
 function p_dist(x1, y1, x2, y2, p) {
